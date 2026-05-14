@@ -13,4 +13,7 @@ typedef struct body{
 
 } Body ;
 
+Body create_body(char n[], double m, double r, Vector3 p, Vector3 v) ;
+
 #endif
+
