@@ -1,6 +1,6 @@
 #ifndef BODY_H
 #define BODY_H
-#include "vectors3.h"
+#include "vector3.h"
 
 typedef struct body{
 

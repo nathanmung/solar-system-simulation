@@ -1,7 +1,7 @@
 // vector with 3 dimensions
 
-#ifndef VECTORS3_H
-#define VECTORS3_H
+#ifndef VECTOR3_H
+#define VECTOR3_H
 
 typedef struct vectors3{
     double x; 
