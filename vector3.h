@@ -3,11 +3,11 @@
 #ifndef VECTOR3_H
 #define VECTOR3_H
 
-typedef struct vectors3{
+typedef struct vector3{
     double x; 
     double y; 
     double z;
-} Vectors3 ;
+} Vector3 ;
 
 
 #endif

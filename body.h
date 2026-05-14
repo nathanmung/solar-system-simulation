@@ -7,9 +7,9 @@ typedef struct body{
     char name[100];
     double mass;
     double radius;
-    Vectors3 position;
-    Vectors3 speed;
-    Vectors3 acceleration;
+    Vector3 position;
+    Vector3 velocity;
+    Vector3 acceleration;
 
 } Body ;
 
