@@ -17,7 +17,7 @@ typedef struct body{
 
 // Acceleration has to be 0 because when we create the body, no forces are applied to it. 
 
-Body* create_body(char n[], double m, double r, Vector3 p, Vector3 v) ;
+Body* create_body(char n[], double m, double r, Vector3* p, Vector3* v) ;
 
 #endif
 
