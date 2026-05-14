@@ -2,6 +2,8 @@
 #define BODY_H
 #include "vector3.h"
 
+// A body can be the Sun, a planet, a moon...
+
 typedef struct body{
 
     char name[100];
@@ -12,6 +14,8 @@ typedef struct body{
     Vector3 acceleration;
 
 } Body ;
+
+// Acceleration has to be 0 because when we create the body, no forces are applied to it. 
 
 Body create_body(char n[], double m, double r, Vector3 p, Vector3 v) ;
 
